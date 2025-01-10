@@ -1,0 +1,1 @@
+This error occurs when using the Expo Constants API to access the device's unique identifier.  The `Constants.deviceId` property sometimes returns `null` or an empty string, even on devices where a unique identifier should be available. This prevents proper device tracking or user identification in the app.
